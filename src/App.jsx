@@ -2,6 +2,7 @@ import { Suspense } from "react"
 import Use from "./hooks/Use.jsx"
 import UseCallback from "./hooks/UseCallback.jsx"
 import UseTransition from "./hooks/UseTransition.jsx"
+import UseDefferedValue from "./hooks/UseDefferedValue.jsx"
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
         <Use/>
       </Suspense> */}
       {/* <UseCallback/> */}
-      <UseTransition/>
+      {/* <UseTransition/> */}
+      <UseDefferedValue/>
     </div>
   )
 }
