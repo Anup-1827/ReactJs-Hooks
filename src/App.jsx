@@ -3,6 +3,7 @@ import Use from "./hooks/Use.jsx"
 import UseCallback from "./hooks/UseCallback.jsx"
 import UseTransition from "./hooks/UseTransition.jsx"
 import UseDefferedValue from "./hooks/UseDefferedValue.jsx"
+import UseLayoutEffect from "./hooks/UseLayoutEffect.jsx"
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
       </Suspense> */}
       {/* <UseCallback/> */}
       {/* <UseTransition/> */}
-      <UseDefferedValue/>
+      {/* <UseDefferedValue/> */}
+      <UseLayoutEffect/>
     </div>
   )
 }
