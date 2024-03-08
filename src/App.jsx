@@ -4,6 +4,7 @@ import UseCallback from "./hooks/UseCallback.jsx"
 import UseTransition from "./hooks/UseTransition.jsx"
 import UseDefferedValue from "./hooks/UseDefferedValue.jsx"
 import UseLayoutEffect from "./hooks/UseLayoutEffect.jsx"
+import UseReducer from "./hooks/UseReducer.jsx"
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       {/* <UseCallback/> */}
       {/* <UseTransition/> */}
       {/* <UseDefferedValue/> */}
-      <UseLayoutEffect/>
+      {/* <UseLayoutEffect/> */}
+      <UseReducer/>
     </div>
   )
 }
